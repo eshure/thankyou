@@ -1,0 +1,85 @@
+\documentclass[landscape]{article}
+\usepackage{wallpaper}
+\usepackage{niceframe}
+\usepackage{xcolor}
+\usepackage{ulem}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{tmargin=.5cm,bmargin=.5cm,
+	lmargin=.5cm,rmargin=.5cm}
+\usepackage{multicol}
+\setlength{\columnseprule}{0.4pt}
+\columnwidth=0.3\textwidth
+
+\begin{document}
+	
+%	\TileWallPaper{4cm}{2cm}{tiling.png}
+	
+	\centering
+	\scalebox{3}{\color{green!30!black!60}
+		\begin{minipage}{.33\textwidth}
+			\font\border=umrandb
+			\generalframe
+			{\border \char113} % up left
+			{\border \char109} % up
+			{\border \char112} % up right
+			{\border \char108} % left 
+			{\border \char110} % right
+			{\border \char114} % lower left
+			{\border \char111} % bottom
+			{\border \char115} % lower right
+			{\centering
+				
+				\begin{minipage}{.9\textwidth}
+					\centering
+					\includegraphics[height=1.1cm]{images/FS_Logo_gb_CMYK.jpg}
+				\end{minipage}
+				\vspace{-8mm}
+				
+				\curlyframe[.9\columnwidth]{
+					
+					\textcolor{red!10!black!90}
+					{\small Bezirk Siegen}\\
+					
+					\textcolor{green!10!black!90}{
+						\tiny In Anerkennung für X Monate Engagement als Foodsharer und Betriebsverantwortliche wird}
+					
+					\smallskip
+					
+					\tiny
+%					to: 
+					\uline{\textcolor{black}
+					{Frau Martina Singendonk}}
+				
+					\smallskip
+				
+					\textcolor{green!10!black!90}{\tiny diese}
+
+					\smallskip			
+					
+%					\textcolor{red!30!black!90} {\textit{Certificate of}}
+					
+					\textcolor{black}{\large \textsc{Dankesurkunde}}
+					
+					\smallskip
+										
+%					(Master degree)
+					\textcolor{green!10!black!90}{
+						\tiny verliehen.}
+					
+					\vspace{4mm}
+					
+					{\color{blue!40!black}
+						\scalebox{.7}{
+							\begin{tabular}{ccccc}
+								\cline{1-1} 
+								%\cline{3-3}
+								\cline{5-5}
+								\\
+								Esteban Shure  & &  & & Enis Bottenberg \\
+								Botschafter & & & & Botschafter und Betriebsverantwortlicher \\ 
+							\end{tabular}
+			}}}}
+		\end{minipage}
+	}
+\end{document}
